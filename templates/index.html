@@ -35,7 +35,7 @@
                 
                 // Verifica se i numeri sono validi
                 if (isNaN(num1) || isNaN(num2)) {
-                    document.getElementById('risultato').innerText = "Inserisci numeri validi!";
+                    document.getElementById('risultato').innerText = "Dati mancanti";
                     return;
                 }
 
@@ -51,7 +51,7 @@
                 const operazioneSelezionata = operazione.value;
 
                 // Simuliamo l'invio della richiesta a un'API (qui utilizziamo un'API fittizia)
-                fetch('https://3245-marcosampie-spaoperazio-0yel24p9kde.ws-eu116.gitpod.io/calcola', {
+                fetch('https://3245-marcosampie-spaoperazio-2gm68av9kff.ws-eu116.gitpod.io/calcola', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
